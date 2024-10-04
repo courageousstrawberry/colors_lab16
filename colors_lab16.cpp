@@ -11,7 +11,14 @@ class Color {
         int green;
         int blue;
     public:
-        // Constructor for the class.
+        // Constructors for the class.
+        // Default constructor.
+        Color() {
+            red = 0;
+            green = 0;
+            blue = 0;
+        }
+        // Parameter constructor.
         Color(int r, int g, int b) {
             red = r;
             green = g;
