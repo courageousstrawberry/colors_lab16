@@ -18,6 +18,18 @@ class Color {
             green = 0;
             blue = 0;
         }
+        // Partial constructor for red.
+        Color(int r) {
+            red = r;
+            green = 0;
+            blue = 0;
+        }
+        // Partial constructor for red and green.
+        Color(int r, int g) {
+            red = r;
+            green = g;
+            blue = 0;
+        }
         // Parameter constructor.
         Color(int r, int g, int b) {
             red = r;
