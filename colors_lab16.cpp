@@ -65,22 +65,34 @@ class Color {
 
 int main() {
     // Create four color objects.
-    Color red(255,0,0);
-    Color green(0,255,0);
-    Color blue(0,0,255);
-    Color orange(255,165,0);
+    Color red(255); // partial constructor
+    Color green(0,255,0); // parameter constructor
+    Color blue(0,0,255); // parameter constructor
+    Color orange(255,165); // partial constructor
+    Color black; // default constructor
 
     // Display all four colors.
     cout << "Red" << endl;
     cout << "-----------" << endl;
     red.print();
+    cout << endl;
+
     cout << "Green" << endl;
     cout << "-----------" << endl;
     green.print();
+    cout << endl;
+
     cout << "Blue" << endl;
     cout << "-----------" << endl;
     blue.print();
+    cout << endl;
+
     cout << "Orange" << endl;
     cout << "-----------" << endl;
     orange.print();
+    cout << endl;
+    
+    cout << "Black" << endl;
+    cout << "-----------" << endl;
+    black.print();
 }
